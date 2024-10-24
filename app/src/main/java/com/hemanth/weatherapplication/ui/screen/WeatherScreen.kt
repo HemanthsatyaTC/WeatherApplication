@@ -121,16 +121,10 @@ fun WeatherScreen(
 
                 Spacer(modifier = Modifier.height(160.dp))
 
-                SunriseSunsetSection(
+                SunriseSunsetScreen(
                     sunriseTime = formatUnixTime(data.sys?.sunrise?.toLong() ?: 0L),
                     sunsetTime = formatUnixTime(data.sys?.sunset?.toLong() ?: 0L)
                 )
-//
-//            Text("Temperature: ${data.main?.temp?.let { kelvinToCelsius(it) }}°C")
-//            Text("Humidity: ${data.main?.humidity}%")
-//            Text("Feels Like: ${data.main?.feelsLike?.let { kelvinToCelsius(it) }}°C")
-//            Text("Wind Speed: ${data.wind?.speed} m/s")
-//            Text("Description: ${data.weather?.get(0)?.description}")
 
 
                 Spacer(modifier = Modifier.height(16.dp))
