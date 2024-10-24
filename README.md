@@ -3,21 +3,36 @@ Weather Application
 A sleek and modern weather app that allows users to check current weather conditions for any city. The app displays the temperature, weather conditions, wind speed, sunrise and sunset times in a visually appealing circular layout.
 
 Features
+
 Current Weather Data: Displays the current temperature, humidity, wind speed, and weather conditions.
+
 Sunrise & Sunset Times: Shows the exact times for sunrise and sunset.
+
 City Search: Users can search for weather information for any city by entering its name, City Code or State Code.
+
 Cached Data: The app caches the last weather data and automatically loads it upon app restart.
+
 Beautiful UI: A visually appealing interface with a circular weather dial and detailed information.
 
+
 Technologies Used
+
 Kotlin: Programming language used for the Android app development.
+
 Jetpack Compose: Used to build the UI using declarative programming.
+
 Retrofit: A type-safe HTTP client for making network requests to fetch weather data from the OpenWeather API.
+
 Room Database: Used for local data storage, caching the last weather data.
+
 Hilt (Dagger): Used for dependency injection to manage the app's components.
+
 LiveData & ViewModel: Used to handle and observe data changes and lifecycle events efficiently.
+
 Junit: Used for End to End Testing for the Application
+
 Mockk: Which allows you to create and stub objects within your test code
+
 Test Cases:
     ViewModel Testing
         Fetching Details From the Api
