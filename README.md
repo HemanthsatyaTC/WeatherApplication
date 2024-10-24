@@ -1,4 +1,5 @@
 Weather Application
+
 A sleek and modern weather app that allows users to check current weather conditions for any city. The app displays the temperature, weather conditions, wind speed, sunrise and sunset times in a visually appealing circular layout.
 
 Features
